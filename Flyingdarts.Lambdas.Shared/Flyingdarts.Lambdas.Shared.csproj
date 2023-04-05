@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Flyingdarts.Lambdas.Shared</Title>
-		<VersionPrefix>1.0.1</VersionPrefix>
+		<VersionPrefix>1.0.0</VersionPrefix>
 		<Version>$(VersionPrefix)</Version>
 		<PackageId>Flyingdarts.Lambdas.Shared</PackageId>
 		<Authors>Flyingdarts</Authors>
