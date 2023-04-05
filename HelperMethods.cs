@@ -1,6 +1,11 @@
+using System.Reflection;
+using Flyingdarts.Persistence;
+using Microsoft.Extensions.DependencyInjection;
+using ApplicationOptions = Flyingdarts.Shared.ApplicationOptions;
+
 public class HelperMethods
 {
-    public static IMediator BuildMediator()
+    public static IMediator BuildMediator(Assembly assembly)
     {
         var services = new ServiceCollection();
 
@@ -11,7 +16,7 @@ public class HelperMethods
 
         services.AddMediatR(cfg =>
         {
-            cfg.RegisterServicesFromAssemblies(typeof(CreateRoomCommand).Assembly);
+            cfg.RegisterServicesFromAssemblies(assembly);
         });
 
         var provider = services.BuildServiceProvider();

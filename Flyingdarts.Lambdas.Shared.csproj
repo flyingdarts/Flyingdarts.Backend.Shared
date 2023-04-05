@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Flyingdarts.Lambdas.Shared</Title>
-		<VersionPrefix>1.0.2</VersionPrefix>
+		<VersionPrefix>1.0.3</VersionPrefix>
 		<Version>$(VersionPrefix)</Version>
 		<PackageId>Flyingdarts.Lambdas.Shared</PackageId>
 		<Authors>Flyingdarts</Authors>
@@ -30,6 +30,8 @@
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.2.23128.3" />
 		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0-preview.2.23128.3" />
 		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0-preview.2.23128.3" />
+		<PackageReference Include="Flyingdarts.Shared" Version="1.0.0" />
+		<PackageReference Include="Flyingdarts.Persistence" Version="1.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
