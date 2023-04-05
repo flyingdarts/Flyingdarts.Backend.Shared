@@ -4,8 +4,6 @@
 - [Message.cs](#messagecs)
 - [FluentValidationExtensions.cs](#fluentvalidationextensionscs)
 
----
-
 ## APIGatewayProxyRequestExtensions.cs
 This file contains...
 
