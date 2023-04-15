@@ -5,16 +5,16 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Title>Flyingdarts.Lambdas.Shared</Title>
-		<VersionPrefix>1.0.3</VersionPrefix>
+		<Title>Flyingdarts.Backend.Shared</Title>
+		<VersionPrefix>1.0.0</VersionPrefix>
 		<Version>$(VersionPrefix)</Version>
-		<PackageId>Flyingdarts.Lambdas.Shared</PackageId>
+		<PackageId>Flyingdarts.Backend.Shared</PackageId>
 		<Authors>Flyingdarts</Authors>
-		<Description>A NuGet package with shared models for lambda functions</Description>
+		<Description>A NuGet package with shared models for the flyingdarts backend</Description>
 		<PackageProjectUrl>https://github.com/flyingdarts/Flyingdarts.Persistence</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/flyingdarts/Flyingdarts.Persistence.git</RepositoryUrl>
 		<LicenseFile>LICENSE.md</LicenseFile>
-		<PackageTags>Flyingdarts Lambdas Shared</PackageTags>
+		<PackageTags>Flyingdarts Backend</PackageTags>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReleaseNotes>Public release</PackageReleaseNotes>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -23,14 +23,14 @@
 	<ItemGroup>
 		<PackageReference Include="Amazon.Lambda.APIGatewayEvents" Version="2.6.0" />
 		<PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
-		<PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.102.19" />
+		<PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.102.27" />
 		<PackageReference Include="MediatR" Version="12.0.1" />
-		<PackageReference Include="FluentValidation" Version="11.5.1" />
-		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.1" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.2.23128.3" />
-		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0-preview.2.23128.3" />
-		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0-preview.2.23128.3" />
-		<PackageReference Include="Flyingdarts.Shared" Version="1.0.0" />
+		<PackageReference Include="FluentValidation" Version="11.5.2" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.3.23174.8" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0-preview.3.23174.8" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0-preview.3.23174.8" />
+		<PackageReference Include="Flyingdarts.Shared" Version="1.0.1" />
 		<PackageReference Include="Flyingdarts.Persistence" Version="1.0.1" />
 	</ItemGroup>
 

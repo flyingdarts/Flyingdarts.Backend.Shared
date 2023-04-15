@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\codeql.yml = .github\workflows\codeql.yml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyingdarts.Lambdas.Shared", "Flyingdarts.Lambdas.Shared.csproj", "{B35643C7-6B65-47AE-873B-C4F92EB528F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyingdarts.Backend.Shared", "Flyingdarts.Backend.Shared.csproj", "{9A6DAA92-3744-496A-BE57-28DD3799756B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B35643C7-6B65-47AE-873B-C4F92EB528F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B35643C7-6B65-47AE-873B-C4F92EB528F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B35643C7-6B65-47AE-873B-C4F92EB528F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B35643C7-6B65-47AE-873B-C4F92EB528F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6DAA92-3744-496A-BE57-28DD3799756B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6DAA92-3744-496A-BE57-28DD3799756B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6DAA92-3744-496A-BE57-28DD3799756B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6DAA92-3744-496A-BE57-28DD3799756B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
