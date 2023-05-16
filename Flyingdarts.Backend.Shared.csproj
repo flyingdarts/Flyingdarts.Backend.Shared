@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Flyingdarts.Backend.Shared</Title>
-    <VersionPrefix>1.0.0.3</VersionPrefix>
+    <VersionPrefix>1.0.0.4</VersionPrefix>
     <Version>$(VersionPrefix)</Version>
     <PackageId>Flyingdarts.Backend.Shared</PackageId>
     <Authors>Flyingdarts</Authors>
@@ -29,7 +29,7 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0-preview.4.23259.5" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0-preview.4.23259.5" />
     <PackageReference Include="Flyingdarts.Shared" Version="1.0.2.3" />
-    <PackageReference Include="Flyingdarts.Persistence" Version="1.0.2.11" />
+    <PackageReference Include="Flyingdarts.Persistence" Version="1.0.2.12" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.png">
