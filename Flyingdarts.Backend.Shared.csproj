@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Flyingdarts.Backend.Shared</Title>
-    <VersionPrefix>1.0.0.6</VersionPrefix>
+    <VersionPrefix>1.0.0.7</VersionPrefix>
     <Version>$(VersionPrefix)</Version>
     <PackageId>Flyingdarts.Backend.Shared</PackageId>
     <Authors>Flyingdarts</Authors>
@@ -15,21 +15,21 @@
     <LicenseFile>LICENSE.md</LicenseFile>
     <PackageTags>Flyingdarts Backend</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageReleaseNotes>Public release</PackageReleaseNotes>
+    <PackageReleaseNotes>Update packages</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.APIGatewayEvents" Version="2.6.0" />
     <PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
-    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.103.8" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.103.9" />
     <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="11.5.2" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.4.23259.5" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0-preview.4.23259.5" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0-preview.4.23259.5" />
-    <PackageReference Include="Flyingdarts.Shared" Version="1.0.2.7" />
-    <PackageReference Include="Flyingdarts.Persistence" Version="1.1.0.3" />
+    <PackageReference Include="Flyingdarts.Shared" Version="1.0.2.8" />
+    <PackageReference Include="Flyingdarts.Persistence" Version="1.1.0.4" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.png">
