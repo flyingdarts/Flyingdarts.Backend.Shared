@@ -1,6 +1,6 @@
 ﻿namespace Flyingdarts.Lambdas.Shared;
 
-class Metadata
+public class Metadata
 {
     public GameDto Game { get; set; }
     public IOrderedEnumerable<PlayerDto> Players { get; set; }
