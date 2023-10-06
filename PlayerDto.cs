@@ -1,6 +1,6 @@
 ﻿namespace Flyingdarts.Lambdas.Shared;
 
-class PlayerDto
+public class PlayerDto
 {
     public String PlayerId { get; set; }
     public String PlayerName { get; set; }
