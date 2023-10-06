@@ -8,7 +8,7 @@ public class SocketMessage<TMessage>
     public TMessage? Message { get; set; }
 
     [JsonPropertyName("metadata")]
-    public Dictionary<string, string>? Metadata { get; set; } = null;
+    public Dictionary<string, object>? Metadata { get; set; } = null;
 
     [JsonIgnore]
     public string? ConnectionId { get; set; } = null;
