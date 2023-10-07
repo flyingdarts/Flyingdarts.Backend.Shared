@@ -2,7 +2,8 @@
 
 public class PlayerDto
 {
-    public String PlayerId { get; set; }
-    public String PlayerName { get; set; }
-    public DateTime CreatedAt { get; set; }
+    public string PlayerId { get; set; }
+    public string PlayerName { get; set; }
+    public long CreatedAt { get; set; }
+    public string Country { get; set; }
 }
