@@ -12,7 +12,8 @@ public class Metadata
         {
             { "Game", Game },
             { "Players", Players },
-            { "Darts", Darts }
+            { "Darts", Darts },
+            { "NextPlayer", NextPlayer }
         };
 
         return result;
