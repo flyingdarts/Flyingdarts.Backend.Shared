@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Flyingdarts.Backend.Shared</Title>
-    <VersionPrefix>1.3.8</VersionPrefix>
+    <VersionPrefix>1.3.9</VersionPrefix>
     <Version>$(VersionPrefix)</Version>
     <PackageId>Flyingdarts.Backend.Shared</PackageId>
     <Authors>Flyingdarts</Authors>
