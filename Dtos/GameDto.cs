@@ -1,8 +1,8 @@
-﻿namespace Flyingdarts.Lambdas.Shared;
+﻿namespace Flyingdarts.Backend.Shared.Dtos;
 
 public class GameDto
 {
-    public String Id { get; set; }
+    public string Id { get; set; }
     public GameTypeDto Type { get; set; }
     public GameStatusDto Status { get; set; }
     public int PlayerCount { get; set; }

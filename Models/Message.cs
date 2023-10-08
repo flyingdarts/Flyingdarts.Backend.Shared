@@ -1,4 +1,4 @@
-﻿namespace Flyingdarts.Lambdas.Shared;
+﻿namespace Flyingdarts.Backend.Shared.Models;
 public class SocketMessage<TMessage>
 {
     [JsonPropertyName("action")]

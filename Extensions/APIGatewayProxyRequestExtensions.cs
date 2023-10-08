@@ -1,4 +1,6 @@
-﻿namespace Flyingdarts.Lambdas.Shared;
+﻿using Flyingdarts.Backend.Shared.Models;
+
+namespace Flyingdarts.Backend.Shared.Extensions;
 public static class APIGatewayProxyRequestExtensions
 {
     public static SocketMessage<T> To<T>(this APIGatewayProxyRequest request, ILambdaSerializer serializer) where T : class

@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Flyingdarts.Lambdas.Shared;
+namespace Flyingdarts.Backend.Shared.Models;
 
 public static class Responses
 {

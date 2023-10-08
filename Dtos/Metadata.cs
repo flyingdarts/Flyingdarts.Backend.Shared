@@ -1,10 +1,10 @@
-﻿namespace Flyingdarts.Lambdas.Shared;
+﻿namespace Flyingdarts.Backend.Shared.Dtos;
 
 public class Metadata
 {
     public GameDto Game { get; set; }
     public IOrderedEnumerable<PlayerDto> Players { get; set; }
-    public Dictionary<string, Dictionary<int, List<DartDto>>> Darts { get; set; }
+    public Dictionary<string, List<DartDto>> Darts { get; set; }
     public string NextPlayer { get; set; }
     public Dictionary<string, object> toDictionary()
     {

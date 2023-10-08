@@ -1,4 +1,4 @@
-﻿namespace Flyingdarts.Lambdas.Shared;
+﻿namespace Flyingdarts.Backend.Shared.Dtos;
 
 public class DartDto
 {
