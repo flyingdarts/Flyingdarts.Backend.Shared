@@ -6,6 +6,7 @@ public class Metadata
     public IOrderedEnumerable<PlayerDto> Players { get; set; }
     public Dictionary<string, List<DartDto>> Darts { get; set; }
     public string NextPlayer { get; set; }
+    public string WinningPlayer { get; set; }
     public Dictionary<string, object> toDictionary()
     {
         var result = new Dictionary<string, object>
@@ -13,7 +14,8 @@ public class Metadata
             { "Game", Game },
             { "Players", Players },
             { "Darts", Darts },
-            { "NextPlayer", NextPlayer }
+            { "NextPlayer", NextPlayer },
+            { "WinningPlayer", WinningPlayer }
         };
 
         return result;
